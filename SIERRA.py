@@ -20,17 +20,17 @@ import babel.numbers
 
 ### MY SQL CONNECTION ###
 db = mysql.connect(
-    host = "192.168.1.248",
-    user = "ACCTG",
-    passwd = "ACCTGasd123!",
-    database = "dbpsc")
+    host = "ip address",
+    user = "un",
+    passwd = "pw",
+    database = "db")
 cursor = db.cursor()
 
 ### KEY VARIABLES ###
 
-PATH_TEMPLATE = "//192.168.1.248/sierra/TEMPLATE/" #D:/SIERRA/TEMPLATE
+PATH_TEMPLATE = "//ip address/sierra/TEMPLATE/" #D:/SIERRA/TEMPLATE
 PATH_SAVE = "C:/SIERRA/SAVED/" #D:/SIERRA/SAVED/
-PATH_ICON = "//192.168.1.248/sierra/ICON_DARK/" #D:/SIERRA/ICON_DARK/
+PATH_ICON = "//ip address/sierra/ICON_DARK/" #D:/SIERRA/ICON_DARK/
 PATH_UPDATE = "C:/SIERRA/APP/"
 
 APP_NAME = "SIERRA"
